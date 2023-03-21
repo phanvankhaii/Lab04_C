@@ -61,21 +61,21 @@ void displayEmployee(Employee);
 int main()
 {
 
-	Employee thang("Truong Duc Thang", 47899, "IT", "Company President");
+	Employee khai("Phan Van Khai", 12653, "IT", "Company President");
 
-	Employee vu("Truong Quang Vu", 39119); 
+	Employee long("Nguyen Ngoc Phi Long", 56239); 
 	vu.setDepartment("IT"); 
 	vu.setPosition("Programmer");
 
-	Employee huynh;
-	huynh.setName("Nguyen Dang Huynh");
-	huynh.setIdNumber (81774);
+	Employee hung;
+	huynh.setName("Phan Xuan Hung");
+	huynh.setIdNumber (52224);
 	huynh.setDepartment ("Manufacturing");
 	huynh.setPosition("Engineer")
 	;
-	displayEmployee(thang); 
-	displayEmployee(vu); 
-	displayEmployee(huynh);
+	displayEmployee(khai); 
+	displayEmployee(long); 
+	displayEmployee(hung);
 	
 	return 0;
 }
