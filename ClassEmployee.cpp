@@ -64,15 +64,15 @@ int main()
 	Employee khai("Phan Van Khai", 12653, "IT", "Company President");
 
 	Employee long("Nguyen Ngoc Phi Long", 56239); 
-	vu.setDepartment("IT"); 
-	vu.setPosition("Programmer");
+		long.setDepartment("IT"); 
+		long.setPosition("Programmer");
 
 	Employee hung;
-	huynh.setName("Phan Xuan Hung");
-	huynh.setIdNumber (52224);
-	huynh.setDepartment ("Manufacturing");
-	huynh.setPosition("Engineer")
-	;
+		hung.setName("Phan Xuan Hung");
+		hung.setIdNumber (52224);
+		hung.setDepartment ("Manufacturing");
+		hung.setPosition("Engineer");
+	
 	displayEmployee(khai); 
 	displayEmployee(long); 
 	displayEmployee(hung);
